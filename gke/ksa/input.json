@@ -1,0 +1,25 @@
+
+{
+  "project_id": "hsbc-9024377-kineticproc-dev",
+  "action": "add",
+  "setups": [
+    {
+      "project_id": "hsbc-9024377-kineticproc-dev",
+      "environment": "non-prod",
+      "region": "europe-west2",
+      "env_to_deploy": [
+        "dev",
+        "sit",
+        "uat",
+        "ppd"
+      ],
+      "cluster_name": "gke-europe-west2-b-proc-dbb",
+      "namespace": "ws-bbuk-payments",
+      "deployment_name": "wsit-bbuk-payments-pa-paylink-batch-job",
+      "serviceaccount": "bbuk-pymt-pa-plink-batch@hsbc-9024377-kineticproc-dev.iam.gserviceaccount.com",
+      "ksa_action": "create",
+      "wli_action": "create",
+      "append_env": true
+    }
+  ]
+}
