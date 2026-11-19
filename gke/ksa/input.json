@@ -10,8 +10,7 @@
       "env_to_deploy": [
         "dev",
         "sit",
-        "uat",
-        "ppd"
+        "uat"
       ],
       "cluster_name": "gke-europe-west2-b-proc-dbb",
       "namespace": "ws-bbuk-payments",
