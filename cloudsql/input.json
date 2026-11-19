@@ -10,8 +10,8 @@ json
   "db_name": [
     "DEVBROKERPORTALDATA",
     "PPDBROKERPORTALDATA",
-    "SITBROKERPORTALDATA",
-    "UATBROKERPORTALDATA"
+    "SITBROKERPORTALDATA"
+    
   ],
   "serviceaccount": [
     "bbuk-brokerhub-pa-batch@hsbc-9024377-kineticproc-dev.iam"
