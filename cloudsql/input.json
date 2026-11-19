@@ -1,0 +1,22 @@
+Here is the JSON code from the image:
+
+json
+
+```json
+{
+  "project_area": "bbuk-brokerportal",
+  "project_id": "hsbc-9024377-kineticproc-dev",
+  "env": "non-prod",
+  "db_name": [
+    "DEVBROKERPORTALDATA",
+    "PPDBROKERPORTALDATA",
+    "SITBROKERPORTALDATA",
+    "UATBROKERPORTALDATA"
+  ],
+  "serviceaccount": [
+    "bbuk-brokerhub-pa-batch@hsbc-9024377-kineticproc-dev.iam"
+  ],
+  "role": "readwrite",
+  "action": "run"
+}
+```
