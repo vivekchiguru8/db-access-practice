@@ -17,8 +17,7 @@
       "deployment_name": "wsit-bbuk-payments-pa-paylink-batch-job",
       "serviceaccount": "bbuk-pymt-pa-plink-batch@hsbc-9024377-kineticproc-dev.iam.gserviceaccount.com",
       "ksa_action": "create",
-      "wli_action": "create",
-      "append_env": true
+      "wli_action": "create"
     }
   ]
 }

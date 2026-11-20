@@ -4,9 +4,7 @@
   "env": "non-prod",
   "db_name": [
     "DEVBROKERPORTALDATA",
-    "PPDBROKERPORTALDATA",
-    "SITBROKERPORTALDATA",
-    "UATBROKERPORTALDATA"
+    "PPDBROKERPORTALDATA"
   ],
   "serviceaccount": [
     "bbuk-brokerhub-pa-batch@hsbc-9024377-kineticproc-dev.iam"
